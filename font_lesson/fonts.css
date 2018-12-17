@@ -1,0 +1,36 @@
+body{
+  font-family: "Times New Roman";
+  font-size: 12px;
+}
+
+h1{
+  font-family: "Georgia";
+  font-size: 5.0em;
+}
+p{
+  font-family: "Arial";/*Είναι καλύτερο να βάζουμε το όνομα της γραμματοσειράς μλεα σε αποσιοπητικά*/
+  font-size: 2.0em;
+}
+
+p>span{
+  font-family: "Baskerville";
+  font-size: 2.0em;
+}
+
+/*
+Γενικές παρατηρήσεις
+
+1. Για την εύρεση font https://www.cssfontstack.com/
+2. Για την μονάδα μέτρησης em είναι δυναμιή μονάδα και ουσιατικά είναι ο πολλαπλασιατής μίας τιμής
+που αφορά το πεδίο ενός απογόνου ως πρός την γονική πχ:
+<p>Το κείμενο της παραγράφου είναι 12px αλλά <span>εγώ είμαι τριπλάσια</span></P>
+και αύτο γιατί στο stylesheet έχουμε:
+
+p{
+font-size=12px;
+}
+αλλά για το
+p>span{
+font-size=2.0em;
+}
+*/

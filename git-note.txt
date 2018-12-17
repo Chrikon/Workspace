@@ -1,0 +1,10 @@
+Για να κάνω το git να παίξει αντί για τις εντολές που λέει ο linter, από το command promt τον Windows εκτέλεσα:
+
+1. Πήγα στο working path i)d: -> ii)cd ./workspace
+
+2. Εκτέλεσα τις παρακάτω δύο εντολές:
+
+     α.  git config --replace-all user.email "crhis.konstantinidis.com"
+     β.  git config --replace-all user.name "Chrikon"
+
+3.ΣΟΣ Τα παραπάνω μπορούν να πραγματοποιήθουν και από το Git Bash

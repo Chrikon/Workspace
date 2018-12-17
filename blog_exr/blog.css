@@ -1,0 +1,28 @@
+body{
+  background-color: #abb6b4;
+  font-family: 'Raleway';
+}
+
+.header{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+  width:30%;
+  margin-left: 1.2%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+div *{
+float: left;
+}
+img{
+ height:20%;
+ width:30%;
+ margin:1.2%;
+ border:4px solid #837b88;
+}
+
+.fit{
+  object-fit: cover;
+}
